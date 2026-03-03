@@ -1,0 +1,76 @@
+
+.sonner-toast {
+  background: #1a1a1a !important;
+  border: 1px solid rgba(255, 229, 0, 0.2) !important;
+  color: #ffffff !important;
+  font-family: 'DM Mono', monospace !important;
+  border-radius: 0.625rem !important;
+  box-shadow: 0 0 20px rgba(255,229,0,0.1), 0 4px 12px rgba(0,0,0,0.4) !important;
+  padding: 16px 20px !important;
+}
+
+.sonner-toast[data-type="success"] {
+  border-color: rgba(34, 197, 94, 0.3) !important;
+  background: linear-gradient(135deg, #1a1a1a 0%, rgba(34, 197, 94, 0.05) 100%) !important;
+}
+
+.sonner-toast[data-type="error"] {
+  border-color: rgba(239, 68, 68, 0.5) !important;
+  background: linear-gradient(135deg, #1a1a1a 0%, rgba(239, 68, 68, 0.1) 100%) !important;
+}
+
+.sonner-toast[data-type="error"] .sonner-toast-title {
+  color: #ef4444 !important;
+}
+
+.sonner-toast[data-type="loading"] {
+  border-color: rgba(255, 229, 0, 0.2) !important;
+  background: linear-gradient(135deg, #1a1a1a 0%, rgba(255, 229, 0, 0.05) 100%) !important;
+}
+
+
+.sonner-toast-title {
+  color: #fff !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Toast description */
+.sonner-toast-description {
+  color: #999 !important;
+  font-size: 13px !important;
+  letter-spacing: 0.3px !important;
+}
+
+/* Close button */
+.sonner-close-button {
+  background: transparent !important;
+  border: none !important;
+  color: #FFE500 !important;
+  opacity: 0.6 !important;
+  transition: opacity 0.2s ease !important;
+}
+
+.sonner-close-button:hover {
+  opacity: 1 !important;
+}
+
+/* Action button */
+.sonner-action-button {
+  background: #FFE500 !important;
+  color: #0a0a0a !important;
+  border: none !important;
+  border-radius: 0.375rem !important;
+  font-family: 'DM Mono', monospace !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  padding: 6px 12px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.sonner-action-button:hover {
+  background: #fff !important;
+  box-shadow: 0 0 12px rgba(255,229,0,0.3) !important;
+}
