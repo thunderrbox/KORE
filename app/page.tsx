@@ -83,9 +83,20 @@ export default function KORELanding() {
         <div className="hero-bg-text">LEARN</div>
         <div className="hero-left">
           <div className="hero-tag">India's Premier Tech Mentorship Platform</div>
-          <div className="kore-fullform">
-     <strong>KORE</strong> — Knowledge • Opportunity • Resilience • Expertise
-    </div>
+          <div className="kore-fullform" aria-label="KORE stands for Knowledge, Opportunity, Resilience, Expertise">
+            <div className="kore-acronym">
+              <span>K</span>
+              <span>O</span>
+              <span>R</span>
+              <span>E</span>
+            </div>
+            <div className="kore-words">
+              <span><strong>K</strong>nowledge</span>
+              <span><strong>O</strong>pportunity</span>
+              <span><strong>R</strong>esilience</span>
+              <span><strong>E</strong>xpertise</span>
+            </div>
+          </div>
           <h1>
             <div>STOP</div>
             <div className="yellow">BEING</div>
