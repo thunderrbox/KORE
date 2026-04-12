@@ -67,6 +67,7 @@ export default function KORELanding() {
       {/* NAV */}
       <nav className={scrolled ? "scrolled" : ""}>
         <a href="#" className="logo">KORE</a>
+ 
         <ul>
           <li><a href="#features">Features</a></li>
           <li><a href="#how">How It Works</a></li>
@@ -82,6 +83,9 @@ export default function KORELanding() {
         <div className="hero-bg-text">LEARN</div>
         <div className="hero-left">
           <div className="hero-tag">India's Premier Tech Mentorship Platform</div>
+          <div className="kore-fullform">
+     <strong>KORE</strong> — Knowledge • Opportunity • Resilience • Expertise
+    </div>
           <h1>
             <div>STOP</div>
             <div className="yellow">BEING</div>
